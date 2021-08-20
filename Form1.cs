@@ -222,6 +222,8 @@ namespace My_Macro
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RETURN);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
+                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
+                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RETURN);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RETURN);
@@ -238,6 +240,8 @@ namespace My_Macro
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RETURN);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
+                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
+                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RETURN);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.UP, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.UP, true);
@@ -253,6 +257,8 @@ namespace My_Macro
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RETURN);
+                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
+                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
