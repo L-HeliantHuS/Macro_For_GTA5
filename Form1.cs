@@ -224,6 +224,7 @@ namespace My_Macro
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
+                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RETURN);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RETURN);
@@ -239,6 +240,7 @@ namespace My_Macro
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RETURN);
+                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
@@ -262,23 +264,11 @@ namespace My_Macro
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
+                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RETURN);
                         Thread.Sleep(50);
+                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RIGHT, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.UP, true);
-                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RETURN);
-                        Thread.Sleep((int)numericUpDown3.Value);
-                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.UP, true);
-                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.UP, true);
-                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.LEFT, true);
-                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
-                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
-                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RETURN);
-                        Thread.Sleep((int)numericUpDown3.Value);
-                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.UP, true);
-                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.UP, true);
-                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.LEFT, true);
-                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
-                        Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.DOWN, true);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.RETURN);
                         Keyboard.FuckingPressKey(Keyboard.ScanCodeShort.KEY_M);
                         break;
@@ -306,6 +296,11 @@ namespace My_Macro
 
             }
 
+        }
+
+        private static Keyboard.ScanCodeShort GetRIGHT()
+        {
+            return Keyboard.ScanCodeShort.RIGHT;
         }
 
         private void hook_MouseButtonDown(object sender, MouseEventArgs e)
